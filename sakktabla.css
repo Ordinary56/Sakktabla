@@ -1,0 +1,25 @@
+html {
+    background-color: #AEA49A;
+}
+div {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+}
+div:nth-child(odd) div:nth-child(odd)
+{
+    background-color: black;
+}
+div:nth-child(even) div:nth-child(odd)
+{
+    background-color: gray;
+}
+div:nth-child(even) div:nth-child(even)
+{
+    background-color: black;
+    
+}
+div:nth-child(odd) div:nth-child(even)
+{
+    background-color: gray;
+}
