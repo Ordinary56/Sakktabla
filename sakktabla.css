@@ -5,21 +5,26 @@ div {
     width: 50px;
     height: 50px;
     display: inline-block;
+    text-align: center;
 }
 div:nth-child(odd) div:nth-child(odd)
 {
-    background-color: black;
+    background-color: white;
 }
 div:nth-child(even) div:nth-child(odd)
 {
-    background-color: gray;
+    background-color: rgb(71, 71, 71);
 }
 div:nth-child(even) div:nth-child(even)
 {
-    background-color: black;
+    background-color: white;
     
 }
 div:nth-child(odd) div:nth-child(even)
 {
-    background-color: gray;
+    background-color: rgb(71, 71, 71);
+}
+
+#keret{
+    background-image:url(/letöltés.png);
 }
