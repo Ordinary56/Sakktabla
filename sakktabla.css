@@ -1,5 +1,9 @@
-html {
-    background-color: #AEA49A;
+body
+{
+    background:linear-gradient(45deg,#45FC,#1BAA,#3ADC);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+        
 }
 .Row div {
     width: 50px;
@@ -16,7 +20,7 @@ html {
     align-items: center;
     display: block;
     width: fit-content;
-    border: 10px solid transparent;
+    border: 20px solid transparent;
     border-image: url("./letöltés.png") 30% round;
     
     
@@ -44,20 +48,27 @@ html {
     background-color: rgb(71, 71, 71);
 }
 
-th
+span
 {
-    
+    position: inherit;
     text-align: center;
+    overflow: hidden;
+    display: inline-block;
+    margin: auto;
 }
 .number 
 {
+    margin:auto;
     overflow: hidden;
-    padding: 5px;
-    height: fit-content;
+    padding:7px;
+    height: 389px;
     width: 10px;
     display: inline-block;
     border: 1px solid black;
     text-align: center;
+}
+.number p{
+    margin-top: 30px;
 }
 .A:hover, div[class*="N"]:hover
 {
